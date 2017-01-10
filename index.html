@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>The Static Web Challenge 1</title>
+</head>
+<body>
+	<fieldset>
+		<legend>Temperature Settings</legend>
+		<label for="slider">Temperature Slider: </label>
+		<input type="range" name="slider" min="0" max="100" default="50" onchange="showSlide(this.value);" id="rangeDisplay"><br>
+		<label for="number">Digital Display: </label>
+		<input type="number" name="temperature" min="0" max="100" default="50" onchange="showTemp(this.value);" onclick="showTemp(this.value);" id="digitalDisplay">
+	</fieldset>
+	<span id="slider" style="color:red;"></span>
+	<span id="temperature" style="color: blue;"></span>
+	<script src="javascript.js"></script>
+</body>
+</html>
