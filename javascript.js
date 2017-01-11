@@ -5,8 +5,8 @@ function showSlide(x) {
 }
 
 
-// This function takes information from the number input onchange and onclick. It adjusts the slider with that information
-.
+// This function takes information from the number input onchange and onclick. It adjusts the slider with that information.
+
 function showTemp(x) {
 	document.getElementById("rangeDisplay").value=x
 }
